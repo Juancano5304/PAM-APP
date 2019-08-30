@@ -1,7 +1,8 @@
-package com.bancolombia.pamapp
+package com.bancolombia.pamapp.screens.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.bancolombia.pamapp.R
 
 class MainActivity : AppCompatActivity() {
 
