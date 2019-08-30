@@ -10,19 +10,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".screens.pin.PinActivity"></activity>
+        <activity android:name=".screens.enrollamiento.EnrolamientoActivity" />
         <activity android:name=".screens.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <!-- Accepts URIs that begin with "http://www.bancolombia.com/” -->
-                <data android:scheme="http"
-                    android:host="www.bancolombia.com"/>
-                    <!--android:pathPrefix="/gizmos"-->
-                <!-- note that the leading "/" is required for pathPrefix-->
+                <data
+                    android:host="www.bancolombia.com"
+                    android:scheme="http" />
+                <!-- android:pathPrefix="/gizmos" -->
+                <!-- note that the leading "/" is required for pathPrefix -->
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
