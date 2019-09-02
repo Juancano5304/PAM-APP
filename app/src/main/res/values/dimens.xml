@@ -4,5 +4,6 @@
     <dimen name="top_title_enrolamiento">50dp</dimen>
     <dimen name="top_accesoADP">60dp</dimen>
     <dimen name="top_textUser" >25dp</dimen>
+    <dimen name="bottom_button" >50dp</dimen>
     <dimen name="title_text" >18sp</dimen>
 </resources>
