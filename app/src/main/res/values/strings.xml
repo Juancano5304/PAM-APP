@@ -3,4 +3,6 @@
     <string name="title_enrolamiento">Enrolamiento del dispositivo</string>
     <string name="datos_acceso_ADP">Datos de acceso al directorio activo</string>
     <string name="button_enrolamiento">Ingresar</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_password">Contraseña</string>
 </resources>
